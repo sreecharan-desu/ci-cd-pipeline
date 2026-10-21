@@ -17,3 +17,7 @@ docker build -t ci-cd-app . && docker run -p 3000:3000 ci-cd-app
 ## env
 
 none. the workflow (`.github/workflows/build.yaml`) needs registry credentials in repo secrets.
+
+
+## Consistency & Discipline
+This project is maintained regularly to ensure documentation clarity and code quality. Small, daily improvements are prioritized over large, infrequent updates.
